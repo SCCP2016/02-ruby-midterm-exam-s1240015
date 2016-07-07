@@ -22,7 +22,7 @@
 標準出力に Hello World と出力するRubyのプログラムを書け。
 
 ```ruby
-puts 'HelloWorld"
+
 ```
 
 ## 2. 適切なものを選び、説明を埋めよ
@@ -32,14 +32,11 @@ puts 'HelloWorld"
 
 ```
 # 存在しない型
-Bool
-# 存在する型と具体例   
+
+# 存在する型と具体例
 # [答え方の例]
 # 型: 具体例
-Fixnum:1 > 2
-Bignum:11 % 5
-Float:3.14.round
-String:'ruby' == 'ruby'
+
 ```
 
 ## 3. 適切なプログラムを書け
@@ -68,15 +65,7 @@ String:'ruby' == 'ruby'
 # 出力例2
 # 1000
 
-age, sex = STDIN.gets.split.map(&:to_i)
-if age <= 12 then charge = 700
-elseif age <= 18 then charge = 1000
-elseif age <= 22 then charge = 1200
-else charge = 1500
-end
-if sex == 1 then charge = charge - 200
-end
-puts "charge"
+
 ```
 
 ## 4. 適切なプログラムを書け
@@ -101,12 +90,6 @@ AB5?CD
 b5?c
 AB?Cd
 ```
-mozi = STDIN.gets.split.map(&to_i)
-puts mozi
-puts mozi.length
-puts mozi.reverse
-puts mozi.slice!(0)&(mozi.length-1)
-
 
 ## 5. 適切なプログラムを書け
 
@@ -119,10 +102,6 @@ puts mozi.slice!(0)&(mozi.length-1)
 # 出力例
 # 1 17 37
 
-arr = [10, 1, 5, 4, 17]
-puts arr.max
-puts arr.min 
-puts arr.inject {|sum, n| sum + n }
 ```
 
 ## 6. 適切なプログラムを書け
